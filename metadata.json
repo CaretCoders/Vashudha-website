@@ -1,0 +1,6 @@
+{
+  "name": "Vashudha",
+  "description": "Agricultural science, field sensing, and intelligent data systems helping farmers understand soil and crops.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
