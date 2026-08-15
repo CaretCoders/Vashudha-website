@@ -32,6 +32,9 @@ jobs:
       - name: Build Vite application
         run: npm run build
 
+      - name: Preserve source asset URLs
+        run: cp -R src/assets dist/src-assets
+
       - name: Setup Pages
         uses: actions/configure-pages@v5
 
