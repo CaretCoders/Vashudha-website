@@ -33,7 +33,7 @@ jobs:
         run: npm run build
 
       - name: Preserve source asset URLs
-        run: cp -R src/assets dist/src-assets
+        run: mkdir -p dist/src/assets && cp -R src/assets/images dist/src/assets/images
 
       - name: Setup Pages
         uses: actions/configure-pages@v5
