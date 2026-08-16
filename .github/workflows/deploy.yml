@@ -35,6 +35,9 @@ jobs:
       - name: Preserve source asset URLs
         run: mkdir -p dist/src/assets && cp -R src/assets/images dist/src/assets/images
 
+      - name: Ensure storyboard is available at site root
+        run: cp public/vashudha_storyboard.png dist/vashudha_storyboard.png
+
       - name: Setup Pages
         uses: actions/configure-pages@v5
 
